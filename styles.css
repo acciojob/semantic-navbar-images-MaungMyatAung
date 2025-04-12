@@ -1,2 +1,63 @@
 
 /* Your CSS Code here. */
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    /* Navbar Styling */
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Image Section Styling */
+    main {
+      margin-top: 30px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    img {
+      margin-right: 15px;
+      border: 3px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Responsive images */
+    @media (max-width: 600px) {
+      img {
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+      }
+    }
